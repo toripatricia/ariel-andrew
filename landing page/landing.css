@@ -1,0 +1,43 @@
+body {
+  background-color: #1D1C1C;
+}
+
+#welcome-header h1 {
+  font-family: "Italiana", serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 5px;
+  color: #E1D9D9;
+  font-size: 7vw;
+}
+
+#welcome-header {
+  display: flex;
+  justify-content: center;
+}
+
+#landing-logo {
+  display: flex;
+  justify-content: center;
+}
+
+#landing-logo img {
+  max-height: 35vh;
+}
+
+#enter-site-btn {
+  display: flex;
+  justify-content: center;
+  margin: 5vw;
+}
+
+#enter {
+  height: 5vh;
+  width: 20vw;
+  background-color: transparent;
+  border-color: #E1D9D9;
+  font-family: "Lora", serif;
+  color: #E1D9D9;
+  cursor: pointer;
+  letter-spacing: 3px;
+}

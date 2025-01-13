@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Italiana&family=Junge&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="/home/home.css">
+</head>
+
+<body>
+
+
+
+
+  <!-- HOME -->
+
+  <div id="home">
+    <div class="home-overlay"></div>
+
+    <!-- LOGO -->
+    <div id="logo">
+      <img class="logo" src="/landing page/landing assets/ae2.png">
+    </div>
+
+    <!-- NAVBAR -->
+    <button class="menu-button" onclick="toggleNavbar()">menu</button>
+
+    <div class="overlay" id="overlay" onclick="toggleNavbar()"></div>
+
+    <div class="navbar-container" id="navbar">
+      <a href="home.html" class="nav-link" id="home-link">home</a>
+      <a href="bio.html" class="nav-link" id="bio-link">bio</a>
+      <a href="media.html" class="nav-link" id="media-link">media</a>
+      <a href="gallery.html" class="nav-link" id="gallery-link">gallery</a>
+      <a href="schedule.html" class="nav-link" id="schedule-link">schedule</a>
+      <a href="contact.html" class="nav-link" id="contact-link">contact</a>
+    </div>
+
+    <div id="home-content">
+      <div id="left-side">
+        <div id="quote-container">
+          <h1>quote placeholder</h1>
+        </div>
+      </div>
+
+      <div id="right-side">
+        <div id="name">
+          <img id="name-logo" src="/home/home-assets/ae3 title.png">
+        </div>
+
+        <div class="up-next-container">
+          <div class="up-next-header">
+            <p>up next...</p>
+          </div>
+          <div class="up-next-box">
+            <div class="decorative-lines">
+              <div class="line top-left"></div>
+              <div class="line bottom-right"></div>
+            </div>
+            <div class="up-next-content">
+              <p><strong>ROLE</strong></p>
+              <p>SHOW</p>
+              <p>COMPANY</p>
+              <p>DATES</p>
+              <button class="view-schedule">VIEW SCHEDULE</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+<!-- BIO -->
+
+<div id="bio">
+  
+</div>
+
+
+
+
+
+
+
+
+  <script src="home.js"></script>
+
+</body>
+
+</html>
