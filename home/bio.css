@@ -1,0 +1,132 @@
+body {
+  background-color: #dfc5cb;
+}
+
+#back {
+  margin: 2rem;
+  position: fixed;
+}
+
+#back-to-home {
+  background-color: transparent;
+  border: none;
+  font-family: "Inria Serif", serif;
+  font-style: italic;
+  color: #AA8D91;
+  font-size: 1.25rem;
+}
+
+
+.header-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px; 
+  height: 500px;
+  margin: 0 auto; 
+}
+
+/* Circular image styling */
+.photo-wrapper {
+  position: relative; 
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.photo-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+/* Image overlay */
+.photo-wrapper::before {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); 
+  border-radius: 50%; 
+  z-index: 1; 
+  pointer-events: none; 
+}
+
+/* Text overlay styling */
+.text-overlay {
+  position: absolute;
+  bottom: 20%; 
+  background: rgba(148, 153, 144, 0.8); 
+  padding: 10px 20px;
+  line-height: 100px;
+  text-align: center;
+  transform: translateY(50%);
+  width: 600px;
+  height: 100px;
+  z-index: 2; 
+}
+
+.text-overlay h2 {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  font-size: 24px; 
+  color: #e9dfe1;
+  letter-spacing: 5px;
+  font-family: "Junge", serif;
+}
+
+.text-overlay h2 span {
+  font-size: 12rem; 
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-family: "Licorice", serif;
+}
+
+#bio-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+}
+
+#bio-container {
+  display: flex; 
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center; 
+  width: 80%;
+  height: fit-content;
+  background-color: #9D9F98;
+  padding: 3rem;
+}
+
+#bio-content p {
+  font-family: "Junge", serif;
+  color: #e9dfe1;
+  text-align: center;
+}
+
+#resume {
+  background-color: transparent;
+  border: 1px solid #d8b9c3;
+  color: white;
+  padding: 5px 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+#logo-container {
+  display: flex;
+  justify-self: center;
+  margin-bottom: 3rem;
+}
+
+#bio-logo {
+  height: 15vh;
+}

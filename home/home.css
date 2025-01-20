@@ -13,15 +13,14 @@ body {
   background-attachment: fixed;
 }
 
-/* Overlay for the background image only */
 .home-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Example overlay color */
-  z-index: 0; /* Overlay is behind the content */
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 0; 
 }
 
 /* Logo */
@@ -29,16 +28,15 @@ body {
   max-height: 6vw;
   margin: 3vw;
   position: fixed;
-  z-index: 1; /* Make sure logo is above the overlay */
+  z-index: 1; 
 }
 
-/* Navbar container */
 .navbar-container {
   position: fixed;
   top: 0;
-  right: -100%; /* Initially hidden */
-  width: 75%; /* Narrow navbar */
-  height: 50px; /* Skinny navbar height */
+  right: -100%;
+  width: 75%;
+  height: 50px; 
   background-color: #AA8D91;
   display: flex;
   align-items: center;
@@ -49,7 +47,6 @@ body {
   margin-top: 3vw;
 }
 
-/* Navbar links */
 .navbar-container a {
   text-decoration: none;
   color: #EFD5D4;
@@ -71,13 +68,13 @@ body {
   position: fixed;
   top: 10px;
   right: 10px;
-  background-color: transparent; /* No background */
+  background-color: transparent;
   color: #EFD5D4;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
-  z-index: 1001; /* Menu button is above the navbar */
+  z-index: 1001; 
   margin-top: 3vw;
   font-family: Junge;
   font-size: 2vw;
@@ -86,33 +83,50 @@ body {
 
 /* Content area */
 #home-content {
+  max-height: 100vh;
+  max-width: 100%;
   position: relative;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: space-evenly;
-  padding-top: 10vw;
-  z-index: 2; /* Content should be above the overlay */
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  z-index: 2; 
 }
 
 /* Left and right sides of content */
 #left-side {
-  margin-right: 15vw;
+  display: flex; 
+  align-items: flex-end; 
+  margin-top: 30rem;
+  margin-left: 4rem;
 }
 
 #quote-container {
-  height: 10rem;
+  height: fit-content;
   width: 25rem;
   background-color: rgba(59, 91, 67, 0.5);
+  padding: 1rem;
+}
+
+#quote-container h1 {
+  color:#EFD5D4;
+}
+
+#quote-container h5 {
+  color:#EFD5D4;
+}
+
+.name-highlight {
+  color: #C3EFAE;
 }
 
 #right-side {
   display: flex;
   flex-direction: column;
+  margin-top: 8rem;
 }
 
 #name-logo {
   max-height: 25vw;
+  margin-bottom: 2rem;
 }
 
 /* Container styling */
@@ -127,7 +141,6 @@ body {
   margin: 0 auto;
 }
 
-/* Header styling */
 .up-next-header {
   background-color: #d8b9c3; 
   padding: 10px 20px;
@@ -144,13 +157,12 @@ body {
   margin: 0;
 }
 
-/* Main box styling */
 .up-next-box {
   position: relative;
-  background: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+  background: rgba(0, 0, 0, 0.6); 
   color: white;
   padding: 20px;
-  border: 1px solid #d8b9c3; /* Outer border */
+  border: 1px solid #d8b9c3; 
   margin-top: -10px;
   width: 100%;
 }
@@ -213,6 +225,8 @@ body {
 /*bio*/
 
 #bio {
+  display: flex;
+  justify-content: flex-end;
   background-image: url('/home/home-assets/bio.jpg');
   width: 100%;
   height: 100vh;
@@ -220,4 +234,123 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
+}
+
+#bio-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-height: 80vh;
+  width: 45%;
+  background-color: rgba(59, 91, 67, 0.5);
+  margin: 4rem;
+  padding: 4rem;
+  color:#EFD5D4;
+}
+
+#bio-header h1 {
+  font-family: "Junge", serif;
+  letter-spacing: 4px;
+}
+
+#bio-blurb p {
+  font-family: "Inria Serif", serif;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.highlight {
+  font-family: "Inria Serif", serif;
+  font-size: 1.75rem;
+  color: #C3EFAE;
+}
+
+#view-bio {
+  background-color: transparent;
+  border: 1px solid #d8b9c3;
+  color: white;
+  padding: 5px 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+/*Contact*/
+
+
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+  padding: 2rem;
+  background-color: #EAD7DB;
+}
+
+/* Photo Container */
+.photo-container {
+  flex: 0.75; 
+  position: relative;
+  width: 50%; 
+  height: 100vh; 
+  overflow: hidden;
+}
+
+.photo-container img {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+}
+
+/* Form Container */
+.form-container {
+  flex: 0 1 400px;
+  background-color: #9ea59f; 
+  padding: 2rem;
+  border-radius: 5px;
+  position: relative;
+  z-index: 2; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  margin-left: -100px; 
+}
+
+/* Form Styling */
+.form-container h2 {
+  font-size: 2rem;
+  color: #f4e4e8; 
+  margin-bottom: 1.5rem;
+}
+
+.form-container h2 em {
+  font-style: italic;
+  color: #d7b1b8; 
+}
+
+.form-container input,
+.form-container textarea,
+.form-container button {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container button {
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #333;
+  color: #fff;
 }
