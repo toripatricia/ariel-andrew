@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Italiana&family=Junge&family=Licorice&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+
+  <div id="media-page">
+
+    <div id="media-header">
+
+      <a href="home.html"><button id="back-to-home">back to home</button></a>
+
+      <img id="header" src="media-assets/listen.png">
+
+    </div>
+
+    <div id="audio-wrapper">
+
+      <div class="audio-player">
+        <audio id="audio"></audio>
+
+        <div class="track-list">
+          <h1>AUDIO</h1>
+          <ul id="track-list">
+            <li data-index="0" class="active">Track 1</li>
+            <li data-index="1">Track 2</li>
+            <li data-index="2">Track 3</li>
+          </ul>
+        </div>
+
+        <div class="controls">
+          <button id="prev">⏮</button>
+          <button id="play-pause">▶️</button>
+          <button id="next">⏭</button>
+        </div>
+
+        <div class="track-info">
+          <p id="track-title">Track 1</p>
+        </div>
+
+        <input type="range" id="progress" value="0" step="1" min="0" max="100">
+      </div>
+    </div>
+
+
+    <script src="media.js"></script>
+
+  </div>
+
+
+</body>
+
+</html>
