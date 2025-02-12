@@ -58,6 +58,11 @@ body {
   font-family: Junge;
 }
 
+.navbar-container a:hover {
+  color: #ffffff;
+  transition: ease 0.3s;
+}
+
 /* Active link */
 .navbar-container a.active {
   border-bottom: 2px solid #EFD5D4;
@@ -79,6 +84,11 @@ body {
   font-family: Junge;
   font-size: 2vw;
   letter-spacing: 3px;
+}
+
+.menu-button:hover {
+  color: #E1D9D9;
+  transition: ease 0.3s;
 }
 
 /* Content area */
@@ -103,10 +113,14 @@ body {
   height: fit-content;
   width: 25rem;
   background-color: rgba(59, 91, 67, 0.5);
-  padding: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  font-family: "Inria Serif", serif;
+  line-height: 1.4;
+  color: #E1D9D9;
 }
 
-#quote-container h1 {
+#quote-container h3 {
   color:#EFD5D4;
 }
 
@@ -116,6 +130,8 @@ body {
 
 .name-highlight {
   color: #C3EFAE;
+  font-size: 2rem;
+  font-family: "Junge", serif;
 }
 
 #right-side {
@@ -142,18 +158,23 @@ body {
 }
 
 .up-next-header {
-  background-color: #d8b9c3; 
+  background-color: #886a6e; 
   padding: 10px 20px;
   margin-bottom: -10px;
   margin-left: 10px;
   z-index: 2;
   position: relative;
+  font-family: "Inria Serif", serif;
+}
+
+.next {
+  color: #E5C7CB;
 }
 
 .up-next-header p {
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-style: italic;
-  color: #7c6d7c; 
+  color: #E1D9D9;
   margin: 0;
 }
 
@@ -205,6 +226,8 @@ body {
 /* Content styling */
 .up-next-content {
   text-align: center;
+  font-family: "Inria Serif", serif;
+  color: #E1D9D9;
 }
 
 .up-next-content p {
@@ -214,11 +237,20 @@ body {
 .view-schedule {
   background-color: transparent;
   border: 1px solid #d8b9c3;
-  color: white;
+  color: #E1D9D9;
   padding: 5px 15px;
   margin-top: 15px;
   cursor: pointer;
   font-size: 0.9rem;
+  font-family: "Junge", serif;
+  padding: 0.5rem;
+  width: 60%;
+}
+
+.view-schedule:hover {
+  background-color: #E1D9D9;
+  color: #886a6e;
+  transition: ease 0.3s;
 }
 
 
@@ -245,7 +277,7 @@ body {
   background-color: rgba(59, 91, 67, 0.75);
   margin: 4rem;
   padding: 4rem;
-  color:#EFD5D4;
+  color: #E1D9D9;
 }
 
 #bio-header h1 {
@@ -256,7 +288,7 @@ body {
 
 #bio-blurb p {
   font-family: "Inria Serif", serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 2rem;
   margin-bottom: 3rem;
   text-align: center;
@@ -264,18 +296,28 @@ body {
 
 .highlight {
   font-family: "Inria Serif", serif;
-  font-size: 1.75rem;
+  font-size: 2rem;
   color: #C3EFAE;
 }
 
 #view-bio {
   background-color: transparent;
   border: 1px solid #d8b9c3;
-  color: white;
-  padding: 5px 15px;
+  color: #E1D9D9;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
   margin-top: 15px;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 1.25rem;
+  font-family: "Inria Serif", serif;
+}
+
+#view-bio:hover {
+  background-color: #E1D9D9;
+  color: #172410;
+  transition: ease 0.3s;
 }
 
 /*Contact*/
@@ -311,9 +353,12 @@ body {
 
 /* Form Container */
 .form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   flex: 0 1 400px;
   background-color: #9ea59f; 
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 5px;
   position: relative;
   z-index: 2; 
@@ -322,13 +367,15 @@ body {
 }
 
 /* Form Styling */
-.form-container h2 {
+.form-container h1 {
   font-size: 2rem;
   color: #f4e4e8; 
   margin-bottom: 1.5rem;
+  font-family: "Inria Serif", serif;
+  letter-spacing: 3px;
 }
 
-.form-container h2 em {
+.form-container h1 em {
   font-style: italic;
   color: #d7b1b8; 
 }
@@ -341,17 +388,21 @@ body {
   padding: 0.75rem;
   border: 1px solid #ccc;
   border-radius: 5px;
+   font-family: "Inria Serif", serif;
+  font-size: 1rem;
+  letter-spacing: 3px;
 }
 
 .form-container button {
   background-color: transparent;
-  color: #333;
-  border: 1px solid #333;
+  color: #ffffff;
+  border: 1px solid #E1D9D9;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .form-container button:hover {
-  background-color: #333;
+  background-color: #172410;
   color: #fff;
+  border: 1px solid #172410;
 }
