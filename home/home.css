@@ -26,7 +26,7 @@ body {
 /* Logo */
 .logo {
   max-height: 6vw;
-  margin: 3vw;
+  margin: 2vw;
   position: fixed;
   z-index: 1; 
 }
@@ -141,8 +141,7 @@ body {
 }
 
 #name-logo {
-  max-height: 23vw;
-  margin-bottom: 0.5rem;
+  max-height: 21vw;
 }
 
 /* Container styling */

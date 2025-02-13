@@ -35,16 +35,17 @@
         <div class="track-list">
           <h1>AUDIO</h1>
           <ul id="track-list">
-            <li data-index="0" class="active">Track 1</li>
-            <li data-index="1">Track 2</li>
-            <li data-index="2">Track 3</li>
+            <li data-index="0" class="active">"Peculiar Grace" - <i>A Fire Shut Up In My Bones</i> - Terrence Blanchard
+            </li>
+            <li data-index="1">"Du Bist Der Lenz" - <i>Die Walküre</i> - Richard Wagner</li>
+            <li data-index="2">"Morrò, ma prima in grazia" - <i>Un ballo in maschera</i> - Giuseppe Verdi</li>
           </ul>
         </div>
 
         <div class="controls">
-          <button id="prev">⏮</button>
-          <button id="play-pause">▶️</button>
-          <button id="next">⏭</button>
+          <button id="prev">&#9664;&#9664;</button> <!-- Solid black previous icon -->
+          <button id="play-pause">&#9654;</button> <!-- Solid black play icon -->
+          <button id="next">&#9654;&#9654;</button> <!-- Solid black next icon -->
         </div>
 
         <div class="track-info">
@@ -53,6 +54,71 @@
 
         <input type="range" id="progress" value="0" step="1" min="0" max="100">
       </div>
+    </div>
+
+    <div id="video-wrapper">
+
+      <div id="studio-videos">
+        <h1 class="video-header">VIDEO</h1>
+        <h2 class="sub-header">IN THE STUDIO...</h2>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OT1vywnlJac?si=mC00s2EilGq8Tu-z"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sEhJkYYlP3Q?si=J5stPArfhcCCyR4m"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/klg85D5FuUM?si=tPYFYXU7oRJcBCV2"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Lb3uSZWubP8?si=WmNAXvLn5YdaaSi1"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      </div>
+
+      <div id="stage-videos">
+        <h2 class="sub-header">ON STAGE...</h2>
+        <div class="video-container">
+          <video controls width="600">
+            <source src="media-assets/handmaid 1.mov" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="caption">Glow Lyric Theatre, <i>The Handmaid's Tale</i> - Moira</div>
+        </div>
+
+        <div class="video-container">
+          <video controls width="600">
+            <source src="media-assets/handmaid 2.mov" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="caption">Glow Lyric Theatre, <i>The Handmaid's Tale</i> - Moira</div>
+        </div>
+
+        <div class="video-container">
+          <video controls width="600">
+            <source src="media-assets/handmaid 3.mov" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="caption">Glow Lyric Theatre, <i>The Handmaid's Tale</i> - Moira</div>
+        </div>
+
+        <div class="video-container">
+          <video controls width="600">
+            <source src="media-assets/handmaid 4.mov" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="caption">Glow Lyric Theatre, <i>The Handmaid's Tale</i> - Moira</div>
+        </div>
+      </div>
+
     </div>
 
 

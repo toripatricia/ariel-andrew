@@ -18,6 +18,11 @@ body {
   font-size: 1.25rem;
 }
 
+#back-to-home:hover {
+  color: #ab8383;
+  transition: ease 0.3s;
+}
+
 #gallery-page-wrapper {
   display: flex;
   flex-direction: column;
@@ -51,9 +56,15 @@ body {
   bottom: 20px;
   right: 20px;
   color: white;
-  font-size: 30px;
+  font-size: 5rem;
   font-weight: bold;
   z-index: 2; 
+  font-family: "Italiana", serif;
+  letter-spacing: 7px;
+}
+
+.highlight {
+  color: #E4ACAC;
 }
 
 
