@@ -111,7 +111,7 @@ body {
 
 #quote-container {
   height: fit-content;
-  width: 25rem;
+  width: fit-content;
   background-color: rgba(59, 91, 67, 0.5);
   padding: 0.5rem;
   text-align: center;
@@ -126,6 +126,10 @@ body {
 
 #quote-container h5 {
   color:#EFD5D4;
+}
+
+a {
+  color: inherit;
 }
 
 .name-highlight {
@@ -164,6 +168,7 @@ body {
   z-index: 2;
   position: relative;
   font-family: "Inria Serif", serif;
+  letter-spacing: 3px;
 }
 
 .next {
@@ -404,4 +409,18 @@ body {
   background-color: #172410;
   color: #fff;
   border: 1px solid #172410;
+}
+
+
+/*MOBILE*/
+
+@media (max-width: 768px) {
+
+  /*home*/
+
+  #home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }

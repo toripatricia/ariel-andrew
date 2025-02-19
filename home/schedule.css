@@ -18,6 +18,11 @@ body {
   font-size: 1.25rem;
 }
 
+#back-to-home:hover {
+  color: #E1D9D9;
+  transition: ease 0.3s;
+}
+
 #schedule-header {
   width: 100%;
   height: 65vh;
@@ -40,45 +45,313 @@ body {
   z-index: 1; 
 }
 
-#schedule-header .header-text {
+.header-text {
   position: absolute;
   bottom: 20px;
   right: 20px;
   color: white;
-  font-size: 30px;
+  font-size: 7vw;
   font-weight: bold;
   z-index: 2; 
+  font-family: "Italiana", serif;
+  letter-spacing: 5px;
+}
+
+.highlight {
+  color: #E4ACAC
+}
+
+#sub-header {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+#sub-header h1 {
+  font-family: "Italiana", serif;
+  font-size: 5vw;
+  letter-spacing: 5px;
 }
 
 #this-season {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center; 
-  width: 100%;
-  padding: 0;
-  margin: 5rem;
+  margin: auto 5rem;
 }
 
-#past-seasons {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center; 
-  width: 100%;
-  padding: 0; 
-  margin: 5rem;
+hr {
+    border: none;
+    height: 1.5px;
+    background-color: black; /* Change color */
+    margin: auto; /* Adjust spacing */
+    width: 80%; /* Adjust width */
 }
+
+a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Makes the link color the same as surrounding text */
+}
+
+
+
+#past-seasons {
+  margin: auto 5rem;
+}
+
 
 .event-block {
   border: 1px solid black;
   box-sizing: border-box;
-  width: 60%;
   height: fit-content;
   text-align: center;
   margin: 3rem;
   padding: 2rem;
+  font-family: "Inria Serif", serif;
+  line-height: 1.5;
 }
 
-.event-block:hover {
-  background-color: #283C2F;
-  color:#EAD7DB
+.role {
+  font-size: 3vw;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.show {
+  font-size: 1.5rem;
+}
+
+.company {
+  font-size: 1.25rem;
+}
+
+.date {
+  font-size: 1.25rem;
+}
+
+/*block one*/
+
+#block-one {
+  position: relative; /* Needed for the overlay to position correctly */
+  padding: 20px;
+}
+
+#block-one > * {
+  position: relative; /* Keeps text above the overlay */
+  z-index: 2;
+}
+
+#block-one::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0); /* Initially transparent */
+  transition: background 0.3s ease; /* Smooth transition */
+  z-index: 1; /* Behind text but above background */
+}
+
+#block-one:hover::before {
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay on hover */
+}
+
+#block-one:hover {
+  background-image: url('media-assets/GLO.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:#ffffff;
+  transition: 0.3s ease;
+}
+
+/*block2*/
+
+#block-two {
+  position: relative; /* Needed for the overlay to position correctly */
+  padding: 20px;
+}
+
+#block-two > * {
+  position: relative; /* Keeps text above the overlay */
+  z-index: 2;
+}
+
+#block-two::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0); /* Initially transparent */
+  transition: background 0.3s ease; /* Smooth transition */
+  z-index: 1; /* Behind text but above background */
+}
+
+#block-two:hover::before {
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay on hover */
+}
+
+#block-two:hover {
+  background-image: url('media-assets/TVE.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:#ffffff;
+  transition: 0.3s ease;
+}
+
+/*block 3*/
+
+#block-three {
+  position: relative; /* Needed for the overlay to position correctly */
+  padding: 20px;
+}
+
+#block-three > * {
+  position: relative; /* Keeps text above the overlay */
+  z-index: 2;
+}
+
+#block-three::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0); /* Initially transparent */
+  transition: background 0.3s ease; /* Smooth transition */
+  z-index: 1; /* Behind text but above background */
+}
+
+#block-three:hover::before {
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay on hover */
+}
+
+#block-three:hover {
+  background-image: url('media-assets/HCO.jpg');
+  background-position: center;
+  background-size: cover;
+  color:#ffffff;
+  transition: 0.3s ease;
+}
+
+/*block4*/
+
+#block-four {
+  position: relative; /* Needed for the overlay to position correctly */
+  padding: 20px;
+}
+
+#block-four > * {
+  position: relative; /* Keeps text above the overlay */
+  z-index: 2;
+}
+
+#block-four::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0); /* Initially transparent */
+  transition: background 0.3s ease; /* Smooth transition */
+  z-index: 1; /* Behind text but above background */
+}
+
+#block-four:hover::before {
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay on hover */
+}
+
+#block-four:hover {
+  background-image: url('media-assets/GLO.png');
+  background-position: center;
+  background-size: cover;
+  color:#ffffff;
+  transition: 0.3s ease;
+}
+
+/*block5*/
+
+#block-five {
+  position: relative; /* Needed for the overlay to position correctly */
+  padding: 20px;
+}
+
+#block-five > * {
+  position: relative; /* Keeps text above the overlay */
+  z-index: 2;
+}
+
+#block-five::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0); /* Initially transparent */
+  transition: background 0.3s ease; /* Smooth transition */
+  z-index: 1; /* Behind text but above background */
+}
+
+#block-five:hover::before {
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay on hover */
+}
+
+#block-five:hover {
+  background-image: url('media-assets/OO.jpg');
+  background-position: center;
+  background-size: cover;
+  color:#ffffff;
+  transition: 0.3s ease;
+}
+
+/*block 6*/
+
+#block-six {
+  position: relative; /* Needed for the overlay to position correctly */
+  padding: 20px;
+}
+
+#block-six > * {
+  position: relative; /* Keeps text above the overlay */
+  z-index: 2;
+}
+
+#block-six::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0); /* Initially transparent */
+  transition: background 0.3s ease; /* Smooth transition */
+  z-index: 1; /* Behind text but above background */
+}
+
+#block-six:hover::before {
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay on hover */
+}
+
+#block-six:hover {
+  background-image: url('media-assets/CCO.jpg');
+  background-position: center;
+  background-size: cover;
+  color:#ffffff;
+  transition: 0.3s ease;
+}
+
+#subheader-2 {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+#subheader-2 h1 {
+  font-family: "Italiana", serif;
+  font-size: 5vw;
+  letter-spacing: 5px;
 }
