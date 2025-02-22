@@ -157,3 +157,33 @@ body {
 #bio-logo {
   height: 15vh;
 }
+
+
+@media (max-width: 768px) {
+
+  .text-overlay {
+    width: 80%;
+  }
+
+   .text-overlay h2{
+    font-size: 2rem;
+  }
+
+  .text-overlay h2 span {
+    font-size: 5rem;
+  }
+
+  #bio-container {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  #bio-wrapper {
+    margin: 2rem
+  }
+
+  #back {
+  position: relative;
+  z-index: 1000;
+}
+}
