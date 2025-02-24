@@ -158,6 +158,17 @@ body {
   height: 15vh;
 }
 
+.reveal {
+  opacity: 0;
+  transform: translateY(30px); /* Starts slightly lower */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 @media (max-width: 768px) {
 

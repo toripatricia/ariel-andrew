@@ -3,6 +3,17 @@ body {
   margin: 0;
 }
 
+.reveal {
+  opacity: 0;
+  transform: translateY(30px); /* Starts slightly lower */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 #back {
   margin: 2rem;
   position: fixed;
@@ -28,7 +39,7 @@ body {
   height: 65vh;
   background-image: url('/home/gallery-assets/*Carmelites\ 2023_0733.webp');
   background-size: cover;
-  background-position: center bottom;
+  background-position: center top 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;

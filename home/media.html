@@ -23,7 +23,7 @@
 
       <a href="home.html"><button id="back-to-home">back to home</button></a>
 
-      <img id="header" src="media-assets/listen.png">
+      <img id="header" class="reveal" src="media-assets/listen.png">
 
     </div>
 
@@ -33,8 +33,8 @@
         <audio id="audio"></audio>
 
         <div class="track-list">
-          <h1>AUDIO</h1>
-          <ul id="track-list">
+          <h1 class="reveal">AUDIO</h1>
+          <ul id="track-list" class="reveal">
             <li data-index="0" class="active">"Peculiar Grace" - <i>A Fire Shut Up In My Bones</i> - Terrence Blanchard
             </li>
             <li data-index="1">"Du Bist Der Lenz" - <i>Die Walküre</i> - Richard Wagner</li>
@@ -49,7 +49,7 @@
         </div>
 
         <div class="track-info">
-          <p id="track-title">Track 1</p>
+          <p id="track-title" class="reveal">Track 1</p>
         </div>
 
         <input type="range" id="progress" value="0" step="1" min="0" max="100">
@@ -59,35 +59,35 @@
     <div id="video-wrapper">
 
       <div id="studio-videos">
-        <h1 class="video-header">VIDEO</h1>
-        <h2 class="sub-header">IN THE STUDIO...</h2>
+        <h1 id="video-header" class="reveal">VIDEO</h1>
+        <h2 id="sub-header" class="reveal">IN THE STUDIO...</h2>
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/OT1vywnlJac?si=mC00s2EilGq8Tu-z"
           title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="reveal"></iframe>
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/sEhJkYYlP3Q?si=J5stPArfhcCCyR4m"
           title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="reveal"></iframe>
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/klg85D5FuUM?si=tPYFYXU7oRJcBCV2"
           title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="reveal"></iframe>
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Lb3uSZWubP8?si=WmNAXvLn5YdaaSi1"
           title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="reveal"></iframe>
 
       </div>
 
       <div id="stage-videos">
-        <h2 class="sub-header">ON STAGE...</h2>
+        <h2 id="sub-header" class="reveal">ON STAGE...</h2>
         <div class="video-container">
-          <video controls width="600">
+          <video controls width="600" class="reveal">
             <source src="media-assets/handmaid 1.mov" type="video/mp4">
             Your browser does not support the video tag.
           </video>
@@ -95,7 +95,7 @@
         </div>
 
         <div class="video-container">
-          <video controls width="600">
+          <video controls width="600" class="reveal">
             <source src="media-assets/handmaid 2.mov" type="video/mp4">
             Your browser does not support the video tag.
           </video>
@@ -103,7 +103,7 @@
         </div>
 
         <div class="video-container">
-          <video controls width="600">
+          <video controls width="600" class="reveal">
             <source src="media-assets/handmaid 3.mov" type="video/mp4">
             Your browser does not support the video tag.
           </video>
@@ -111,7 +111,7 @@
         </div>
 
         <div class="video-container">
-          <video controls width="600">
+          <video controls width="600" class="reveal">
             <source src="media-assets/handmaid 4.mov" type="video/mp4">
             Your browser does not support the video tag.
           </video>
