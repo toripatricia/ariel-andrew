@@ -67,7 +67,7 @@
               <p><i>SUOR ANGELICA</i></p>
               <p>VALKYRIE ENSEMBLE</p>
               <p>MARCH 2025</p>
-              <button class="view-schedule">VIEW SCHEDULE</button>
+              <a href="schedule.html"><button class="view-schedule">VIEW SCHEDULE</button></a>
             </div>
           </div>
         </div>
@@ -116,15 +116,16 @@
     </div>
     <div class="form-container" class="reveal">
       <h1>get in <em>touch</em></h1>
-      <form>
-        <input type="text" placeholder="name">
-        <input type="email" placeholder="email">
-        <input type="tel" placeholder="phone number">
-        <input type="text" placeholder="subject">
-        <textarea placeholder="message..."></textarea>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="text" name="name" placeholder="name" required>
+        <input type="email" name="email" placeholder="email" required>
+        <input type="tel" name="phone" placeholder="phone number">
+        <input type="text" name="subject" placeholder="subject">
+        <textarea name="message" placeholder="message..." required></textarea>
         <button type="submit">SUBMIT</button>
       </form>
     </div>
+
   </div>
 
 
