@@ -28,8 +28,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 500px; 
-  height: 500px;
+  width: 40vw; 
+  height: 40vw;
   margin: 0 auto; 
 }
 
@@ -173,7 +173,7 @@ body {
 @media (max-width: 768px) {
 
   .text-overlay {
-    width: 80%;
+    width: 80vw;
   }
 
    .text-overlay h2{
@@ -197,4 +197,10 @@ body {
   position: relative;
   z-index: 1000;
 }
+
+.header-container {
+  width: 60vw;
+  height: 60vw;
+}
+
 }

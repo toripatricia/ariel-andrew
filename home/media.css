@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: #dfc5cb;
+    overscroll-behavior: none;
 }
 
 /*header*/

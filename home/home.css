@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overscroll-behavior: none;
 }
 
 /* Home section */
@@ -141,6 +142,7 @@ body {
   font-family: "Inria Serif", serif;
   line-height: 1.4;
   color: #E1D9D9;
+  margin-right: 2rem;
 }
 
 #quote-container h3 {
@@ -432,6 +434,11 @@ a {
 
 @media (max-width: 768px) {
 
+  body {
+  margin: 0;
+  overscroll-behavior: none;
+}
+
   /*home*/
 
   #home-content {
@@ -442,10 +449,7 @@ a {
 
   #quote-container {
     width: 80%;
-  }
-
-  .up-next-container {
-    margin-left: 2rem;
+    margin: auto;
   }
 
   #left-side {
@@ -506,15 +510,30 @@ a {
   }
 
   .navbar-container a {
-    font-size: 0.75rem;
+    font-size: 0.70rem;
   }
 
   #bio {
     background-image: url('home-assets/biomobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
   #home {
     background-image: url('home-assets/homemobile.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
+
+  .up-next-container {
+    width: 70vw;
+    margin: auto;
+    }
+
+    .up-next-header  {
+      margin: auto;
+    }
 
 }

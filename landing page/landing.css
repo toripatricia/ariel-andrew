@@ -14,11 +14,13 @@ body {
 #welcome-header {
   display: flex;
   justify-content: center;
+  margin: 10vw;
 }
 
 #landing-logo {
   display: flex;
   justify-content: center;
+  margin-bottom: 10vw;
 }
 
 #landing-logo img {
@@ -31,6 +33,12 @@ body {
   margin: 5vw;
 }
 
+#enter:hover {
+  background-color: #E1D9D9;
+  color: black;
+  transition: 0.3s ease;
+}
+
 #enter {
   height: 5vh;
   width: 20vw;
@@ -40,4 +48,20 @@ body {
   color: #E1D9D9;
   cursor: pointer;
   letter-spacing: 3px;
+}
+
+@media (max-width: 768px) {
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    background-color: #1D1C1C;
+}
+
+#enter {
+  width: 50vw;
+}
+
 }
