@@ -252,7 +252,7 @@ video {
 
     #media-header img {
         width: 100vw;
-        background-image: url('media-assets/mediamobile.webp');
+        background-image: url('media-assets/mediamobile.png');
         background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

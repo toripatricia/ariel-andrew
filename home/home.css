@@ -514,17 +514,14 @@ a {
   }
 
   #bio {
-    background-image: url('home-assets/biomobileresize.webp');
+    background-image: url('home-assets/biomobile.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
 
   #home {
-    background-image: url('home-assets/homemobileresize.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #1D1C1C;
   }
 
   .up-next-container {
