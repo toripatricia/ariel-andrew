@@ -14,13 +14,14 @@ body {
 #welcome-header {
   display: flex;
   justify-content: center;
-  margin: 10vw;
+  margin-bottom: 5vw;
+  margin-top: 2vw;
 }
 
 #landing-logo {
   display: flex;
   justify-content: center;
-  margin-bottom: 10vw;
+  margin-bottom: 7vw;
 }
 
 #landing-logo img {

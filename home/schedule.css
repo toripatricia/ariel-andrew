@@ -391,11 +391,16 @@ a {
     font-size: 10vw;
   }
 
+  #sub-header {
+    display: flex;
+    justify-content: center;
+  }
+
   #sub-header h1 {
-    font-size: 7vw;
+    font-size: 5vw;
   }
 
   #subheader-2 h1 {
-    font-size: 7vw;
+    font-size: 5vw;
   }
 }
