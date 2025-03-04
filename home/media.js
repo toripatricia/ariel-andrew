@@ -8,9 +8,9 @@ const trackList = document.getElementById('track-list');
 
 // Track list
 const tracks = [
-    { title: 'Peculiar Grace', src: '/home/media-assets/Grace 2.mp3' },
-    { title: 'Du Bist Der Lenz', src: '/home/media-assets/Wagner 1.mp3' },
-    { title: 'Morro, ma prima in grazia', src: '/home/media-assets/Morro 2.mp3' }
+    { title: 'Peculiar Grace', src: '/home/media-assets/Grace 2-trimmed.mp3' },
+    { title: 'Du Bist Der Lenz', src: '/home/media-assets/Wagner 1-trimmed.mp3' },
+    { title: 'Morro, ma prima in grazia', src: '/home/media-assets/Morro 2-trimmed.mp3' }
 ];
 let currentTrack = 0;
 
