@@ -248,7 +248,7 @@ video {
 
     #media-header {
         height: 35vh;
-        background-color: #221c1c00;
+        background-color: rgb(30, 29, 29);
     }
 
 }
