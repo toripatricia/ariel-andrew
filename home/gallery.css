@@ -247,7 +247,7 @@ html {
   
   #gallery-header {
     background-image: url('gallery-assets/SPO\ 10-mobile.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
   }

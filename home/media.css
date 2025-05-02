@@ -248,7 +248,7 @@ video {
 
     #media-header {
         height: 50vh;
-        background-color: black;
+        background-image: url('media-assets/media-mobile.JPG');
     }
 
     #media-header img {
