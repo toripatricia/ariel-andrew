@@ -246,9 +246,11 @@ html {
 @media (max-width: 768px) {
   
   #gallery-header {
-    background-image: url('gallery-assets/SPO\ 10-mobile.jpg');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #221c1c00;
+    height: 40vw;
+  }
+
+  #gallery-header .header-text {
+    font-size: 3rem;
   }
 }

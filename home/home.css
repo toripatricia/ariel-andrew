@@ -521,10 +521,10 @@ a {
   }
 
   #home {
-    background-image: url('suor-photos/home-mobile.JPG');
-    background-size: contain;       
-    background-repeat: no-repeat;   
-    background-position: center;
+    background-image: url('suor-photos/home-mobile.JPG') !important;
+    background-size: contain !important;       
+    background-repeat: no-repeat !important;   
+    background-position: center !important;
   }
 
   .up-next-container {
@@ -536,14 +536,4 @@ a {
       margin: auto;
     }
 
-}
-
-@media screen and (max-height: 450px) {
-  
-  #home {
-    background-image: url('suor-photos/home-mobile.JPG');
-    background-size: contain;       
-    background-repeat: no-repeat;   
-    background-position: center;
-  }
 }
