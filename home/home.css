@@ -522,7 +522,7 @@ a {
 
   #home {
     background-image: url('suor-photos/home-mobile.JPG');
-    background-size: cover;       
+    background-size: contain;       
     background-repeat: no-repeat;   
     background-position: center;
   }
@@ -542,7 +542,7 @@ a {
   
   #home {
     background-image: url('suor-photos/home-mobile.JPG');
-    background-size: cover;       
+    background-size: contain;       
     background-repeat: no-repeat;   
     background-position: center;
   }
