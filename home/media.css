@@ -247,14 +247,8 @@ video {
     }
 
     #media-header {
-        height: 50vh;
-        background-image: url('media-assets/media-mobile.JPG');
-    }
-
-    #media-header img {
-        display: flex;
-        justify-content: center;
-        height: 20vh;
+        height: 35vh;
+        background-color: #221c1c00;
     }
 
 }
