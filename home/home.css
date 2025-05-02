@@ -8,7 +8,7 @@ body {
   position: relative;
   width: 100%;
   min-height: 100vh; /* Ensures it takes at least the full viewport height */
-  background-image: url('/home/home-assets/DSC_0442.JPG');
+  background-image: url('/home/suor-photos/DSC07914\ copy.JPG');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -521,7 +521,7 @@ a {
   }
 
   #home {
-    background-color: #1D1C1C;
+    background-image: url('suor-photos/home-mobile.JPG');
   }
 
   .up-next-container {

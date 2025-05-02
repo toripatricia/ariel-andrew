@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+html {
+  height: fit-content;
+}
+
 #back {
   margin: 2rem;
   position: fixed;
@@ -18,10 +22,71 @@ body {
   font-size: 1.25rem;
 }
 
+#back-button {
+  margin: 2rem;
+  position: fixed;
+  z-index: 1;
+}
+
+#back-to-gallery {
+  background-color: transparent;
+  border: none;
+  font-family: "Inria Serif", serif;
+  font-style: italic;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+#back-to-gallery:hover {
+  color: #ab8383;
+  transition: ease 0.3s;
+}
+
 #back-to-home:hover {
   color: #ab8383;
   transition: ease 0.3s;
 }
+
+.album-grid {
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.album-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  width: 50vw;
+  height: 50vh;
+}
+
+.album-card:hover {
+  transform: scale(1.03);
+}
+
+.album-card img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.album-card h3 {
+  margin: 10px;
+  padding: 10px;
+  font-family: "Junge";
+}
+
 
 #gallery-page-wrapper {
   display: flex;
