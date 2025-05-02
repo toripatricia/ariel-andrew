@@ -246,7 +246,7 @@ html {
 @media (max-width: 768px) {
   
   #gallery-header {
-    background-color: #221c1c00;
+    background-color:  rgb(30, 29, 29);
     height: 40vw;
   }
 

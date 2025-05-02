@@ -521,10 +521,11 @@ a {
   }
 
   #home {
-    background-image: url('suor-photos/home-mobile.JPG') !important;
-    background-size: contain !important;       
-    background-repeat: no-repeat !important;   
-    background-position: center !important;
+    background-image: url('suor-photos/home-mobile.JPG');
+    background-size: contain;       
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-color: rgb(30, 29, 29);
   }
 
   .up-next-container {
