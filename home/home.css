@@ -537,3 +537,13 @@ a {
     }
 
 }
+
+@media screen and (max-height: 450px) {
+  
+  #home {
+    background-image: url('suor-photos/home-mobile.JPG');
+    background-size: cover;       
+    background-repeat: no-repeat;   
+    background-position: center;
+  }
+}

@@ -24,7 +24,6 @@ html {
 
 #back-button {
   margin: 2rem;
-  position: fixed;
   z-index: 1;
 }
 
@@ -140,6 +139,7 @@ html {
   grid-template-rows: 15vw 15vw 15vw 15vw 15vw 15vw 15vw 15vw;
   gap: 10px;
   padding: 20px;
+  margin-top: 5vw;
 }
 
 .item-1 {
@@ -241,4 +241,14 @@ html {
 
 .lightbox.active {
   display: flex;
+}
+
+@media (max-width: 768px) {
+  
+  #gallery-header {
+    background-image: url('gallery-assets/SPO\ 10-mobile.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
