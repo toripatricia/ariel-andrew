@@ -203,7 +203,7 @@ a {
 }
 
 #block-two:hover {
-  background-image: url('media-assets/TVE.jpeg');
+  background-image: url('media-assets/groundwater.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -276,7 +276,7 @@ a {
 }
 
 #block-four:hover {
-  background-image: url('media-assets/GLO.png');
+  background-image: url('media-assets/TVE.jpeg');
   background-position: center;
   background-size: cover;
   color:#ffffff;
