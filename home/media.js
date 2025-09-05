@@ -8,10 +8,12 @@ const trackList = document.getElementById('track-list');
 
 // Track list
 const tracks = [
-    { title: 'Peculiar Grace', src: '/home/media-assets/Grace 2-trimmed.mp3' },
-    { title: 'Du Bist Der Lenz', src: '/home/media-assets/Wagner 1-trimmed.mp3' },
-    { title: 'Morro, ma prima in grazia', src: '/home/media-assets/Morro 2-trimmed.mp3' },
-    { title: 'Moments in the Woods', src: '/home/media-assets/Moments.mp3' }
+    { title: 'Peculiar Grace', src: '/home/media-assets/Peculiar Grace (August 2025) 1.mp3' },
+    { title: 'Du Bist Der Lenz', src: '/home/media-assets/Der Lenz (August 2025) 1.mp3' },
+    { title: 'Morro, ma prima in grazia', src: '/home/media-assets/Morro (August 2025) 1.mp3' },
+    { title: 'Moments in the Woods', src: '/home/media-assets/Moments.mp3' },
+    { title: 'Letter Scene', src: '/home/media-assets/Tatyana (August 2025) 1.mp3' },
+    { title: 'Your Daddys Son', src: '/home/media-assets/Daddys Son (August 2025) 1.mp3' },
 ];
 let currentTrack = 0;
 
