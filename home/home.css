@@ -449,7 +449,7 @@ a {
 
   #quote-container {
     width: 80%;
-    margin: auto;
+    margin: 0;
   }
 
   #left-side {
@@ -521,7 +521,7 @@ a {
   }
 
   #home {
-    background-image: url('suor-photos/home-mobile.JPG');
+    background-image: url('suor-photos/home-mobile.jpg');
     background-size: contain;       
     background-repeat: no-repeat;   
     background-position: center;
@@ -530,7 +530,7 @@ a {
 
   .up-next-container {
     width: 70vw;
-    margin: auto;
+    margin: 0;
     }
 
     .up-next-header  {

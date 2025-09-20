@@ -14,7 +14,7 @@ body {
 
 #media-header {
     height: 75vh;
-    background-image: url('/home/gallery-assets/*DSC_0267.webp');
+    background-image: url('/home/gallery-assets/5T3A3433.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -248,7 +248,10 @@ video {
 
     #media-header {
         height: 35vh;
-        background-color: rgb(30, 29, 29);
+        background-image: url('/home/gallery-assets/5T3A3433\ small.jpg');
+        background-size: contain;
+  background-position: top center; 
+  background-repeat: no-repeat;
     }
 
 }

@@ -1,5 +1,18 @@
 body {
-  background-color: #1D1C1C;
+  background-image: url('/home/gallery-assets/5T3A3572.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+.landing-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); 
+  z-index: 0; 
 }
 
 #welcome-header h1 {
@@ -9,12 +22,13 @@ body {
   letter-spacing: 5px;
   color: #E1D9D9;
   font-size: 7vw;
+  z-index: 1;
 }
 
 #welcome-header {
   display: flex;
   justify-content: center;
-  margin-bottom: 5vw;
+  margin-bottom: 3vw;
   margin-top: 2vw;
 }
 
@@ -26,12 +40,15 @@ body {
 
 #landing-logo img {
   max-height: 35vh;
+   z-index: 1;
 }
 
 #enter-site-btn {
   display: flex;
   justify-content: center;
+  position: relative;
   margin: 5vw;
+  z-index: 1;
 }
 
 #enter:hover {
@@ -54,11 +71,14 @@ body {
 @media (max-width: 768px) {
 
   body {
+    background-image: url('/home/gallery-assets/5T3A3823.webp');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    min-height: 100vh;  
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column ;
-    background-color: #1D1C1C;
+    flex-direction: column;
 }
 
 #enter {
