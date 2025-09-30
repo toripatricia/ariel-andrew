@@ -166,7 +166,7 @@ a {
 }
 
 #block-one:hover {
-  background-image: url('media-assets/GLO.png');
+  background-image: url('gallery-assets/TSO.webp');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -354,6 +354,142 @@ a {
   color:#ffffff;
   transition: 0.3s ease;
 }
+
+#block-seven {
+  position: relative; /* Needed for the overlay to position correctly */
+  padding: 20px;
+}
+
+#block-seven > * {
+  position: relative; /* Keeps text above the overlay */
+  z-index: 2;
+}
+
+#block-seven::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0); /* Initially transparent */
+  transition: background 0.3s ease; /* Smooth transition */
+  z-index: 1; /* Behind text but above background */
+}
+
+#block-seven:hover::before {
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay on hover */
+}
+
+#block-seven:hover {
+  background-image: url('gallery-assets/LOC.jpg');
+  background-position: center;
+  background-size: cover;
+  color:#ffffff;
+  transition: 0.3s ease;
+}
+
+#block-eight {
+  position: relative; /* Needed for the overlay to position correctly */
+  padding: 20px;
+}
+
+#block-eight > * {
+  position: relative; /* Keeps text above the overlay */
+  z-index: 2;
+}
+
+#block-eight::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0); /* Initially transparent */
+  transition: background 0.3s ease; /* Smooth transition */
+  z-index: 1; /* Behind text but above background */
+}
+
+#block-eight:hover::before {
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay on hover */
+}
+
+#block-eight:hover {
+  background-image: url('gallery-assets/ariel:josh.png');
+  background-position: center;
+  background-size: cover;
+  color:#ffffff;
+  transition: 0.3s ease;
+}
+
+#block-nine {
+  position: relative; /* Needed for the overlay to position correctly */
+  padding: 20px;
+}
+
+#block-nine > * {
+  position: relative; /* Keeps text above the overlay */
+  z-index: 2;
+}
+
+#block-nine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0); /* Initially transparent */
+  transition: background 0.3s ease; /* Smooth transition */
+  z-index: 1; /* Behind text but above background */
+}
+
+#block-nine:hover::before {
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay on hover */
+}
+
+#block-nine:hover {
+  background-image: url('gallery-assets/cav\ sotto\ voce.png');
+  background-position: center;
+  background-size: top;
+  color:#ffffff;
+  transition: 0.3s ease;
+}
+
+#block-ten {
+  position: relative; /* Needed for the overlay to position correctly */
+  padding: 20px;
+}
+
+#block-ten > * {
+  position: relative; /* Keeps text above the overlay */
+  z-index: 2;
+}
+
+#block-ten::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0); /* Initially transparent */
+  transition: background 0.3s ease; /* Smooth transition */
+  z-index: 1; /* Behind text but above background */
+}
+
+/* #block-ten:hover::before {
+  background: rgba(0, 0, 0, 0.5); 
+} */
+
+/* #block-ten:hover {
+  background-image: url('gallery-assets/cav\ sotto\ voce.png');
+  background-position: center;
+  background-size: top;
+  color:#ffffff;
+  transition: 0.3s ease;
+} */
 
 #subheader-2 {
   display: flex;
