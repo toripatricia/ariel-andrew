@@ -432,6 +432,15 @@ a {
 
 /*MOBILE*/
 
+@media screen and (max-height: 450px) {
+  #home {
+    background-image: url('/home/gallery-assets/5T3A3823.webp');
+    background-size: contain;       
+    background-repeat: no-repeat;   
+    background-position: center;
+  }
+}
+
 @media (max-width: 768px) {
 
   body {
